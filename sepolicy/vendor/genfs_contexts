@@ -4,6 +4,9 @@ genfscon sysfs /class/qcom-battery                                              
 genfscon sysfs /class/typec/port0/data_role                                                                               u:object_r:sysfs_usb:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,pmic_glink/soc:qcom,pmic_glink:qcom,ucsi/typec/port0/data_role              u:object_r:sysfs_usb:s0
 
+# Display
+genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary/hbm_enabled                                             u:object_r:vendor_sysfs_graphics:s0
+
 # DSP
 genfscon sysfs /kernel/boot_cdsp/boot                                           u:object_r:sysfs_msm_boot:s0
 

@@ -310,6 +310,11 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.0-service.haydn
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
