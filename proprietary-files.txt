@@ -23,6 +23,8 @@ vendor/lib64/libadsprpc.so
 
 # ADSP modules
 vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
+vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
+vendor/lib/rfsa/adsp/hrtf5c.bin
 vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
 vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
 vendor/lib/rfsa/adsp/libQnnHtpAltPrepSkel.so
@@ -1170,7 +1172,7 @@ vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/perf/thermalboost.conf
+vendor/etc/perf/thermal-boost.conf
 vendor/etc/powerhint.xml
 vendor/etc/task_profiles.json
 vendor/lib/libperfconfig.so
@@ -1541,6 +1543,11 @@ vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
+vendor/etc/thermal-per-camera.conf
+vendor/etc/thermal-per-class0.conf
+vendor/etc/thermal-per-navigation.conf
+vendor/etc/thermal-per-normal.conf
+vendor/etc/thermal-per-video.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-region-map.conf
 vendor/etc/thermal-tgame.conf
@@ -1559,9 +1566,9 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
-# Touchscreen firmware - from miui_HAYDN_V12.5.7.0.RKKCNXM
-vendor/firmware/focaltech_ts_fw.bin|b40a538ff55eaa4f28c78cc63ea82a1774c73821
-vendor/firmware/focaltech_ts_ht_fw.bin|99bb2bc460b1484eccc89379de6d53b5c8cd6103
+# Touchscreen firmware
+vendor/firmware/focaltech_ts_fw.bin
+vendor/firmware/focaltech_ts_ht_fw.bin
 
 # Trusted Execution Environment connector
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
